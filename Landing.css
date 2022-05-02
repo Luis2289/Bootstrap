@@ -24,6 +24,9 @@
 }
 /* Navbar End */
 
+
+
+
 /* main Init */
 .main-container {
   width: 95%;
@@ -104,7 +107,7 @@
   margin: 0 auto;
 }
 .main-container__carousel {
-  /* background-color: aqua;  */
+  /* background-color: aqua;   */
 
   width: 100%;
   height: 10%;
@@ -128,20 +131,23 @@
 .card-wrapper iframe {
   margin: 0 auto;
   padding: 0 auto;
-  /* background-color: aqua; */
+  object-fit: cover;
+  width: 700px;
+  height: 400px;
+ /* background-color: aqua;  */
 }
 
-.page-container {
-  /* background-color: red; */
+.page-content {
+ /* background-color: red;  */
   width: 95%;
   margin: auto;
   padding: auto;
 }
-.notice-container {
+.notice-content {
   text-align: center;
 }
-
 #cardmat{
+  padding-right: 1rem !important;
   padding: 0 auto !important;
   margin: 0 auto !important;
 }
