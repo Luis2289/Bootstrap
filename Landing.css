@@ -6,116 +6,47 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
-/* Navbar Init */
-.navbar-brand img {
-  margin-right: 1rem;
+#color-tittle {
+  font-size: 18px;
+  font-weight: bold;
 }
-.navbar-brand {
+
+/* =================================== */
+/* Info Init */
+.info-container {
+  margin-top: 5rem;
+}
+.info-container .tittle {
+  font-size: 32px;
+}
+.benet-container {
+  background-color: #f8f9fa;
+  border-top-left-radius: 2rem;
+  width: 210px;
+  height: 210px;
+}
+
+.benet-container img {
+  margin-top: 0.5rem;
+  margin-left: 3.3rem;
+}
+.benet-container:hover {
+  transform: scale(1.1);
+}
+.info-container__txt {
+  padding-top: 0.2rem;
+  text-align: center !important;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: bold;
+  object-fit: cover;
 }
-.collapse {
-  font-size: 16px;
-  font-weight: 300;
-}
-.collapse ul li a {
-  margin: 0.5rem;
-  text-decoration: none;
-}
-/* Navbar End */
+/* Info End */
+/* =================================== */
 
+/* =================================== */
 
-
-
-/* main Init */
-.main-container {
-  width: 95%;
-  height: 55rem;
-
-  /* background-color: red;  */
-
-  margin-top: 0.2rem !important;
-  padding: 0 auto;
-  margin: 0 auto;
-}
-.main-container__info {
-  /* background-color: aqua; */
-
-  margin-top: 2rem;
-  margin-left: 2rem;
-
-  width: 100%;
-  height: 90%;
-}
-.main-container__info h2 {
-  padding-left: 1rem;
-}
-.main-container__lessons {
-  /* background-color: blue;  */
-
-  height: 19rem;
-  width: 98%;
-
-  margin-left: 0.5rem;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.main-container__lessons .lesson {
-  /* background-color: black; */
-  height: 150px;
-  width: 150px;
-  margin: 0 auto;
-  padding: 0 auto;
-}
-.main-container__lessons img {
-  width: 100%;
-  height: 100%;
-}
-.main-container__lessons p {
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.main-container__info h1 {
-  margin-top: 5rem;
-  font-size: 42px;
-  font-weight: bold;
-  margin-left: 1rem;
-  object-fit: contain;
-}
-.main-container__info p {
-  text-align: justify;
-  font-size: 16px;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  object-fit: contain;
-}
-.btn-container {
-  /* background-color: bisque; */
-  width: 100px;
-  height: 80px;
-  margin: 0 auto;
-  padding: 0 auto;
-}
-
-.main-container__info button {
-  object-fit: contain;
-  width: 100px;
-  padding: 0 auto;
-  margin: 0 auto;
-}
-.main-container__carousel {
-  /* background-color: aqua;   */
-
-  width: 100%;
-  height: 10%;
-
-  margin-top: 1rem;
-  margin-right: 2rem;
-}
-
+/* =================================== */
 /* Carousel */
 .carousel-inner img {
   margin-left: 3rem;
@@ -126,74 +57,108 @@
   height: 800px;
   object-fit: cover;
 }
-/* Carousel */
-
-.card-wrapper iframe {
-  margin: 0 auto;
-  padding: 0 auto;
-  object-fit: cover;
-  width: 700px;
-  height: 400px;
- /* background-color: aqua;  */
-}
-
-.page-content {
- /* background-color: red;  */
-  width: 95%;
-  margin: auto;
-  padding: auto;
-}
-.notice-content {
-  text-align: center;
-}
-#cardmat{
-  padding-right: 1rem !important;
-  padding: 0 auto !important;
-  margin: 0 auto !important;
-}
-/* Maincontent */
-/* .page-container {
-  height: 160rem;
-  width: 90%;
-  background-color: antiquewhite;
-  margin-top: 8rem !important;
-  margin-bottom: 2rem !important;
-  padding: 0 auto;
-  margin: 0 auto;
-}
-.notice-container {
-  background-color: rgb(250, 250, 0);
-  height: 100%;
-  width: 100%;
-  padding: 0 auto;
-  margin: 0 auto;
-} */
-
-/* noticecontainer */
-/* .page-container h1 {
-  text-align: center;
+.carousel h5 {
+  font-size: 25px;
   font-weight: bold;
+}
+.carousel p {
+  font-size: 18px;
+}
+/* Carousel */
+/* =================================== */
+
+/* =================================== */
+/* Text Init */
+
+.overview__item h1 {
+  text-align: center;
+  padding-top: 0.5rem;
+  text-justify: auto;
+  font-size: 30px;
+  font-weight: 400;
+}
+.overview__item p {
+  text-align: justify;
+  font-size: 20px;
+  font-weight: 200;
+}
+.btn-container {
+  justify-items: center;
+  margin-bottom: 1rem;
+}
+.btn-container .btn {
+  width: 15rem;
+}
+/* Text Init */
+/* =================================== */
+
+/* =================================== */
+/* More Topics Init */
+.lesson-contain {
+  /* background-color: red; */
+}
+.lesson-contain .lesson {
+  height: 250px;
+  width: 50px;
+  margin: 1rem;
+  /* background-color:rebeccapurple; */
+}
+
+.benet-container {
+  background-color: #f8f9fa;
+  border-top-left-radius: 2rem;
+  width: 210px;
+  height: 210px;
+}
+
+.benet-container img {
   margin-top: 0.5rem;
-  margin-bottom: 0.8rem;
+  margin-left: 3.3rem;
 }
-.card {
-  margin: 0 auto;
-} */
-/* noticecontainer */
-/* Maincontent */
-
-#foot {
-  margin-top: 15rem;
+.benet-container:hover {
+  transform: scale(1.1);
 }
-
-@media screen and (max-width: 750px) {
-  .main-container__carousel {
-    display: none;
-  }
+.info-container__txt {
+  padding-top: 0.2rem;
+  text-align: center !important;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  object-fit: cover;
 }
 
-@media screen and (max-width: 613px) {
-  .lessons__contain {
+/* More Topics End */
+/* =================================== */
+
+/* =================================== */
+/* Notice Init */
+.notice-contain {
+  /* background-color: rebeccapurple; */
+  text-align: center;
+  margin-top: 5rem;
+}
+.notice-wrapper {
+  /* background-color: red; */
+}
+.notice-contain h1 {
+  font-size: 28px;
+  font-weight: 500;
+}
+/* Notice End */
+/* =================================== */
+
+/* =================================== */
+/* Footer Init */
+.footer-container {
+  margin-top: 7rem;
+}
+/* Footer End */
+/* =================================== */
+
+
+
+@media screen and (max-width: 595px) {
+  .carousel {
     display: none;
   }
 }

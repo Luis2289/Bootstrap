@@ -30,53 +30,69 @@
 
 <body>
 
-
-
+    <!-- =============================================================================== -->
     <!-- Navbar-Init -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-color: #C0B6B0" id="navbar-color">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
 
         <div class="container-fluid">
+            <img src="/assets/images/Cabra Y Oveja.png" width="100px" height="100px" alt="">
 
-            <a class="navbar-brand" href="#"><img src="/assets/images/Cabra Y Oveja.png" width="100px" height="100px"
-                    alt="">El Rincón Del Rumiante</a>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-                    <li class="nav-item">
+                    <li class="nav-item m-2">
+                        <a id="color-tittle" class="nav-link active" aria-current="page" href="#">El Rincón Del
+                            Rumiante</a>
+                    </li>
+
+                    <li class="nav-item m-2">
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Proyectos</a>
+                    <li class="nav-item m-2">
+                        <a class="nav-link active" href="#">Equipos De Trabajo</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Equipos De Trabajo</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle m-2" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Proyectos
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Carcip-mex</a></li>
+
+                            <li><a class="dropdown-item" href="#">Hambre cero</a></li>
+
+                            <li><a class="dropdown-item" href="#">Produzcamos</a></li>
+                        </ul>
+
                     </li>
 
-                    <li class="nav-item">
+                    <li class="nav-item m-2">
                         <a class="nav-link active" aria-current="page" href="#">Actividades</a>
                     </li>
 
-                    <li class="nav-item">
+
+                    <li class="nav-item m-2">
                         <a class="nav-link active" aria-current="page" href="#">Noticias</a>
                     </li>
 
-                    <li class="nav-item">
+                    <li class="nav-item m-2">
                         <a class="nav-link active" aria-current="page" href="#">Contacto</a>
                     </li>
 
                 </ul>
 
                 <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Ultimas Noticias" aria-label="Search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-sm btn-outline-secondary" type="submit">Search</button>
                 </form>
 
@@ -85,76 +101,131 @@
         </div>
     </nav>
     <!-- Navbar-End -->
+    <!-- =============================================================================== -->
 
-    <main>
 
-        <section class="main-container__carousel">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
 
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
 
-                <div class="carousel-inner">
+    <!-- =============================================================================== -->
+    <!-- Init Benefits Section -->
+    <section class="info-container container-fluid border shadow">
 
-                    <div class="carousel-item active">
-                        <img class="img-fluid"
-                            src="https://images.pexels.com/photos/933648/pexels-photo-933648.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-                            class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2>Caprinos</h2>
-                            <p>Manejo General Y Buenas Practicas Pecuarias</p>
-                        </div>
-                    </div>
+        <h1>Contenido Básico</h1>
 
-                    <div class="carousel-item">
-                        <img class="img-fluid"
-                            src="https://images.pexels.com/photos/2860869/pexels-photo-2860869.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                            class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2>Caprinos</h2>
-                            <p>Manejo Sanitario Y Calendario Sanitario</p>
-                        </div>
-                    </div>
+        <section class="info-container_wrapper row justify-content-center">
+            <!-- Benefitcontainer#1 -->
+            <article class="benet-container col-lg-4 col-md-2 m-5 border shadow">
+                <img class="img-fluid"
+                    src="https://cdn-icons.flaticon.com/png/512/3967/premium/3967391.png?token=exp=1651639334~hmac=1b9ac70ca4db84514364e92d3b94a8ff"
+                    width="80px" height="80px" alt="Isingnia de numero 1">
+                <h1 class="info-container__txt">Alimentación y nutricion de pequeños rumiantes</h1>
+            </article>
 
-                    <div class="carousel-item">
-                        <img class="img-fluid"
-                            src="https://images.pexels.com/photos/7545895/pexels-photo-7545895.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-                            class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2>Ovinos</h2>
-                            <p>Alimentación Y Nutrición De Pequeños Rumiantes</p>
-                        </div>
-                    </div>
+            <!-- Benefitcontainer#2 -->
+            <article class="benet-container col-lg-4 col-md-2 m-5 border shadow">
+                <img src="https://cdn-icons.flaticon.com/png/512/6190/premium/6190237.png?token=exp=1651639490~hmac=3eddfa93bd5819a3d04c414c0ac4d94e"
+                    width="80px" height="80px" alt="Certificado">
+                <h1 class="info-container__txt">Manejo sanitario y calendario sanitario</h1>
+            </article>
 
-                </div>
+            <!-- Benefitcontainer#3 -->
+            <article class="benet-container col-lg-4 col-md-2 m-5 border shadow">
+                <img src="https://cdn-icons-png.flaticon.com/512/4212/4212534.png" width="80px" height="80px"
+                    alt="Maletín cafe de cuero">
+                <h1 class="info-container__txt">Buenas practicas pecuarias y manejo general</h1>
+            </article>
 
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
+            <!-- Benefitcontainer#4 -->
+            <article class="benet-container col-lg-4 col-md-2 m-5 border shadow">
+                <img src="https://cdn-icons.flaticon.com/png/512/1373/premium/1373948.png?token=exp=1651639788~hmac=48d043c6020d760ef5a1fa0b51cf8bd1"
+                    width="80px" height="80px" alt="Candado, seguridad y confianza">
+                <h1 class="info-container__txt">Manejo reproductivo de pequeños rumiantes</h1>
+            </article>
 
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-
-            </div>
 
         </section>
 
-        <section class="main-container">
+    </section>
+    <!-- End Benefits Section -->
+    <!-- ========================================================================= -->
 
-            <section class="main-container__info">
 
-                <h1>La Caprinocultura En Nicaragua Como Alternativa<br>Para La Recuperación Economica De Las Zonas
+
+
+    <!-- ========================================================================= -->
+    <!-- Carousel Init -->
+    <div id="carouselExampleCaptions" class="carousel slide m-2" data-bs-ride="carousel">
+
+        <div class="carousel-indicators col">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img class="img-fluid"
+                    src="https://images.pexels.com/photos/933648/pexels-photo-933648.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Caprinos</h5>
+                    <p>Manejo General Y Buenas Practicas Pecuarias.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img class="img-fluid"
+                    src="https://images.pexels.com/photos/2860869/pexels-photo-2860869.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Ovinos</h5>
+                    <p>Alimentación Y Nutrición De Pequeños Rumiantes.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img class="img-fluid"
+                    src="https://images.pexels.com/photos/7545895/pexels-photo-7545895.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Caprinos</h5>
+                    <p>Manejo Sanitario Y Calendario Sanitario</p>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+    </div>
+    <!-- Carousel End -->
+    <!-- ========================================================================= -->
+
+
+
+
+    <!-- ========================================================================= -->
+    <!-- Overview Info Init -->
+    <section class="overview-contain container-fluid m-2">
+
+        <section class="overview-contain_wrapper row justify-content-center">
+            <!-- Benefitcontainer#1 -->
+            <article class="overview__item col m-5 border shadow">
+                <h1>La Caprinocultura En Nicaragua Como Alternativa<br>Para La Recuperación Económica De Las Zonas
                     Rurales</h1>
                 <br>
                 <p>Los sistemas de producción caprinos, brindan la posibilidad de obtener importantes niveles de
@@ -162,289 +233,161 @@
                     lo
                     cual eleva su productividad. Lo anterior, se convierte en una alternativa muy viable y expedita
                     para
-                    la recuperación economica, y el desarrollo de las regiones de Nicaragua.</p>
-                <br>
+                    la recuperación economica, y el desarrollo de las regiones de Nicaragua para la evolución de un
+                    potencial mercado de valor Caprino.
+                </p>
                 <section class="btn-container">
                     <button type="button" class="btn btn-primary btn-sm">Ver más</button>
                 </section>
+            </article>
 
 
-
-                <section class="lessons__contain">
-
-                    <h2>Descubre Más</h2>
-
-                    <section class="main-container__lessons">
-
-                        <article class="lesson">
-                            <a href=""><img
-                                    src="https://us.123rf.com/450wm/sabelskaya/sabelskaya1708/sabelskaya170801377/84861805-vector-de-dibujos-animados-de-estilo-de-dibujos-animados-ram-con-cuernos-ilustraci%C3%B3n-aislada-sobre-u.jpg"
-                                    alt="Cabeza Oveja"></a>
-                            <br>
-                            <p>Aspectos Fenotipicos</p>
-                        </article>
-
-                        <article class="lesson">
-                            <a href=""><img
-                                    src="https://www.purina-latam.com/sites/g/files/auxxlc391/files/Purina%C2%AE%20Beyond%C2%AE%20Alimento%20Seco%20Simply%209%2C%20cordero%20y%20cebada%20integral%20.png"
-                                    alt="Comida de oveja"></a>
-                            <br>
-                            <p>Manejo Alimenticio</p>
-                        </article>
-
-                        <article class="lesson">
-                            <a href=""><img
-                                    src="https://synlab-sd-uploads.s3.amazonaws.com/uploads/2018/07/1.-GENETICA-HUMANA.png"
-                                    alt="Genetica"></a>
-                            <br>
-                            <p>Aspectos Genotipicos</p>
-                        </article>
-
-                        <article class="lesson">
-                            <a href=""><img src="https://ovinapp.com/wp-content/uploads/2021/03/Recurso-1.png"
-                                    alt="Control Ovino"></a>
-                            <br>
-                            <p>Manejo De Inventario</p>
-                        </article>
-
-                    </section>
+            <br>
+            <!-- Benefitcontainer#2 -->
+            <article class="overview__item col m-5 border shadow">
+                <h1>La Ovinocultura En Nicaragua Como Alternativa<br>Para La Recuperación Económica De Las Zonas
+                    Rurales</h1>
+                <br>
+                <p>Los animales que conforman el ganado ovino son buenos productores de leche y carne, pero también lo
+                    son como proveedores de lana que se emplea en la industria textil para la confección de diversos
+                    tipos de tela, entre ellos, la lana.
+                    La lana es una fibra natural que se obtiene de las ovejas y borregos, se denomina sucia al producto
+                    de la esquila (trasquila) y antes de que pase por cualquier proceso, como podría ser el lavado.
+                </p>
+                <section class="btn-container">
+                    <button type="button" class="btn btn-primary btn-sm">Ver más</button>
                 </section>
-
-            </section>
-
-        </section>
-
-
-
-        <section class="page-content container">
-
-            <section class="notice-content row">
-
-                <h1>El Sector Productivo Nicaraguense</h1>
-                
-                <div class="card-wrapper row">
-        
-                 <div class="card m-3 " style="width:49rem;" id="cardmat">
-                        <iframe class="img-fluid" src="https://www.youtube.com/embed/Y_EHzr4NAdY"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                        <div class="card-body">
-                            <h5 class="card-title">La CaprinoCultura En Nicaragua</h5>
-                            <p class="card-text">La importancia de esta industria en las regiones de Nicaragua.</p>
-                        </div>
-
-                        <div class="card-body">
-                            <a href="#" class="card-link">Leer más</a>
-                            <a href="#" class="card-link">Más información</a>
-                        </div>
-                    </div>
-
-                    <div class="card m-3" style="width:49rem;" id="cardmat">
-                        <img class="img-fluid" src="https://www.fao.org/fileadmin/user_upload/AGRO_Noticias/img/mexico_nicaragua.jpg"
-                            class="img-fluid" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Despues De Un Tiempo No Hay Acuerdo Entre Mexico Y Nicaragua Sobre
-                                Genética OvinoCaprina</h5>
-                            <p class="card-text">La importanción de animales ovinos y embriones ovinos de Mexico
-                                permitiría
-                                el mejoramientos genético en Nicaragua.</p>
-                        </div>
-
-                        <div class="card-body">
-                            <a href="#" class="card-link">Leer más</a>
-                            <a href="#" class="card-link">Más información</a>
-                        </div>
-                    </div>
-
-                    <div class="card m-1" style="width:49rem;" id="cardmat">
-                        <img src="https://filabres.com/wp-content/uploads/2020/07/carne_.png" 
-                            alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Calidad De La Canal De Un Cordero Y Su Rendimiento</h5>
-                            <p class="card-text">Herramienta para entender la producción y el consumo del cordero en el
-                                mercado Nicaraguense.</p>
-                        </div>
-
-                        <div class="card-body">
-                            <a href="#" class="card-link">Leer más</a>
-                            <a href="#" class="card-link">Más información</a>
-                        </div>
-                    </div>
-
-                    <div class="card m-3" style="width:49rem;" id="cardmat">
-                        <iframe  class="img-fluid" src="https://www.youtube.com/embed/ewssiqgQ11s"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                        <div class="card-body">
-                            <h5 class="card-title">3 Días Para Aprender De Alimentación Y Manejo De Ovejas Y Cabras</h5>
-                            <p class="card-text">El objetivo claro es el mejoramiento de la alimentación y los
-                                requerimientos nutricionales de los pequeños rumiantes.</p>
-                        </div>
-
-                        <div class="card-body">
-                            <a href="#" class="card-link">Leer más</a>
-                            <a href="#" class="card-link">Más información</a>
-                        </div>
-                    </div> 
-                </div> 
-            </section>
+            </article>
 
         </section>
 
-        <!-- <aside class="aside-container">
-
-                <div class="container">
-                    <h4>Los datos más destacados</h4>
-
-                    <section class="aside-content">
-
-                        <div class="row">
-                            <div class="card text-center">
-                                <div class="card-header">
-                                    Manejo Productivo
-                                </div>
-                                <div class="card-body col-sm-12">
-                                    <h5 class="card-title">Comederos y forrajeras para Ovejas y cabras.</h5>
-                                    <p class="card-text">Los comederos son utilizados prácticamente en todos los
-                                        sistemas de
-                                        producción de animales, ya sea para carne o leche. Esto se debe a que existe la
-                                        necesidad de alimentar de manera continua o suplementar el plan de alimentación.
-                                        Encontramos en el mercado de comederos para ovejas y cabras diseños y materiales
-                                        variados.
-                                    </p>
-                                    <a href="#" class="btn btn-primary">Ver Más</a>
-                                </div>
-                                <div class="card-footer text-muted col-sm-12">
-                                    Hace 2 Días
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="card text-center">
-                                <div class="card-header col-sm-12">
-                                    Nutrición Ovina Y Caprina
-                                </div>
-                                <div class="card-body col-sm-12">
-                                    <h5 class="card-title">¿Qué son las forrajeras o Heniles?</h5>
-                                    <p class="card-text">Las forrajeras o heniles son estructuras ranuradas oblicuas, de
-                                        madera o chapa galvanizada que pueden ser móviles o ir adosadas a la pared.
-                                        Permiten
-                                        suplementar con heno o pienso a tus animales.
-                                    </p>
-                                    <a href="#" class="btn btn-primary">Ver Más</a>
-                                </div>
-                                <div class="card-footer text-muted col-sm-12">
-                                    Hace 8 hrs
-                                </div>
-                            </div>
-                        </div>
+    </section>
+    <!-- Overview Info Init -->
+    <!-- ========================================================================= -->
 
 
-                        <div class="row">
-                            <div class="card text-center">
 
-                                <div class="card-header col-sm-12">
-                                    Aspectos A Tomar En Cuenta En La Producción
-                                </div>
-                                <div class="card-body col-sm-12">
-                                    <h5 class="card-title">Otros aspectos claves de un comedero para cabras y ovejas
-                                    </h5>
-                                    <p class="card-text">Los animales deben mantenerse siempre bien alimentados e
-                                        hidratados,
-                                        prestando atención a cubrir las necesidades básicas que requieren en cada
-                                        período
-                                        productivo. Instalar comederos para cabras y ovejas permitirá que tu explotación
-                                        ofrezca
-                                        la comodidad que tu ganado se merece, ya que podrá disponer y localizar su
-                                        alimento
-                                        sin
-                                        necesidad de recorrer largas distancias. La disponibilidad de alimento a
-                                        pequeñas
-                                        distancias repercutirá de manera positiva en un engorde más rápido de los
-                                        animales y
-                                        una
-                                        mayor producción de leche.
-                                    </p>
-                                    <a href="#" class="btn btn-primary">Ver Más</a>
-                                </div>
 
-                                <div class="card-footer text-muted col-sm-12">
-                                    hace 14 Días
-                                </div>
-                            </div>
-                        </div>
+    <!-- ========================================================================= -->
+    <!-- Lessons Init -->
+    <section class="info-container container-fluid border shadow">
+        <h1 class="tittle">Aprende Más</h1>
 
-                        <div class="card mb-3">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to
-                                    additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to
-                                    additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                            <img src="..." class="card-img-bottom" alt="...">
-                        </div>
+        <section class="topic-container_wrapper row justify-content-center">
+            <!-- Benefitcontainer#1 -->
+            <article class="benet-container col-lg-4 col-md-2 m-4 border shadow">
+                <img class="img-fluid" src="https://cdn-icons-png.flaticon.com/512/3570/3570616.png" width="80px"
+                    height="80px" alt="Isingnia de numero 1">
+                <h1 class="info-container__txt">Aspectos genéticos de rumiantes menores</h1>
+            </article>
 
-                        <div class="card mb-3">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to
-                                    additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to
-                                    additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                            <img src="..." class="card-img-bottom" alt="...">
-                        </div>
+            <!-- Benefitcontainer#2 -->
+            <article class="benet-container col-lg-4 col-md-2 m-4  border shadow">
+                <img src="https://synlab-sd-uploads.s3.amazonaws.com/uploads/2018/07/1.-GENETICA-HUMANA.png"
+                    width="80px" height="80px" alt="Certificado">
+                <h1 class="info-container__txt">Aspectos fenotípicos de rumiantes menores</h1>
+            </article>
 
-                        <div class="card mb-3">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to
-                                    additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
+            <!-- Benefitcontainer#3 -->
+            <article class="benet-container col-lg-4 col-md-2 m-4  border shadow">
+                <img src="https://ovinapp.com/wp-content/uploads/2021/03/Recurso-1.png" width="80px" height="80px"
+                    alt="Maletín cafe de cuero">
+                <h1 class="info-container__txt">Manejo de inventario para el control y toma de decisiones</h1>
+            </article>
 
-                    </section>
+
+        </section>
+
+    </section>
+    <!-- Lessons End -->
+    <!-- ========================================================================= -->
+
+
+
+    <!-- ========================================================================= -->
+    <!-- Notice Init -->
+    <section class="notice-contain container-fluid border shadow">
+        <h1>Lo Más nuevo Relevante</h1>
+
+        <section class="notice-wrapper row justify-content-center">
+            <!-- spacecontainer#1 -->
+            <article class="notice-wrapper__card col-lg-4 col-md-3 m-3 border shadow">
+                <iframe width="606px" class="img-fluid" src="https://www.youtube.com/embed/Y_EHzr4NAdY" height="300px"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <div class="card-body">
+                    <h5 class="card-title">El Hato Ovino Nacional, distribución de la propiedad Del Hato Ovino</h5>
+                    <p class="card-text">Para la determinación del tamaño del hato ovino nacional se contó con la
+                        información
+                        disponible en la base de datos de INEC y levantada como parte del Censo Nacional
+                        Agropecuario del año 2001, que constituyó una fuente de información importante para esta
+                        primera parte del estudio. Se obtuvo la información detallada por municipios y por estratos
+                        del tamaño de los hatos. De acuerdo con el Censo Nacional Agropecuario levantado por INEC en el
+                        año 2001, en el
+                        país habían 2.626 Empresas Agropecuarias (EA’s) que incluían ovinos entre su inventario
+                        pecuario.</p>
                 </div>
 
-            </aside>  -->
+                <div class="card-body">
+                    <a href="#" class="card-link">Leer más</a>
+                    <a href="#" class="card-link">Más información</a>
+                </div>
+            </article>
+
+            <!-- spacecontainer#2 -->
+            <article class=" notice-wrapper__card col-lg-4 col-md-3 m-3  border shadow">
+                <img class="img-fluid"
+                    src="https://www.fao.org/fileadmin/user_upload/AGRO_Noticias/img/mexico_nicaragua.jpg"
+                    class="img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Despues De Un Tiempo No Hay Acuerdo Entre Mexico Y Nicaragua Sobre
+                        Genética OvinoCaprina</h5>
+                    <p class="card-text">La importanción de animales ovinos y embriones ovinos de Mexico
+                        permitiría
+                        el mejoramientos genético en Nicaragua.</p>
+                </div>
+
+                <div class="card-body">
+                    <a href="#" class="card-link">Leer más</a>
+                    <a href="#" class="card-link">Más información</a>
+                </div>
+
+            </article>
+
+            <!-- spacecontainer#3 -->
+            <article class=" notice-wrapper__card col-lg-4 col-md-3 m-3  border shadow">
+                <iframe width="606px" class="img-fluid" src="https://www.youtube.com/embed/ewssiqgQ11s"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <div class="card-body">
+                    <h5 class="card-title">3 Días Para Aprender De Alimentación Y Manejo De Ovejas Y Cabras</h5>
+                    <p class="card-text">El objetivo claro es el mejoramiento de la alimentación y los
+                        requerimientos nutricionales de los pequeños rumiantes.</p>
+                </div>
+
+                <div class="card-body">
+                    <a href="#" class="card-link">Leer más</a>
+                    <a href="#" class="card-link">Más información</a>
+                </div>
+
+            </article>
 
 
         </section>
-    </main>
+
+    </section>
+
+    <!-- Notice Init -->
+    <!-- ========================================================================= -->
 
 
 
 
-
-    <!-- Footer -->
-    <footer class="bg-white" id="foot">
+    <!-- ========================================================================= -->
+    <!-- Footer Init -->
+    <footer class="footer-container bg-white">
 
         <div class="container py-5">
             <div class="row py-4">
@@ -502,6 +445,12 @@
             </div>
         </div>
     </footer>
+    <!-- Footer End -->
+    <!-- ========================================================================= -->
+
+
+
+
 </body>
 
 </html>
